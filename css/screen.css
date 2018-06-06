@@ -1,0 +1,41 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* Begin site styles below */
+/* Karl: set typography first, do it all on higher-level tags */
+/* modularscale.com */
+
+html {
+
+font-family: Helvetica, Tahoma, "Lucida Grande", Arial, sans-serif;
+/* target / context = result */
+font-size: 1.125rem; /* 18/16 = 1.125em*/
+line-height: 1.2222222222rem; /* 22/18 = 1.22em*/
+padding: 0.6111111rem; /* .5 gridline = 11/18  padding all around */
+}
+
+p {
+  padding-bottom: 1.222222222rem;
+}
+
+h1,h2,h3,h4 {
+font-weight: bold;
+}
+
+h1 {
+  font-size: 1.618rem; /* 29.124/18 = 1.618rem */
+  line-height: 1.83333rem; /* 1.5 line-height; 33/18 = 1.83333rem */
+  padding-bottom: 1.83333rem;
+}
+
+/* for later */
+nav {
+  display: none;
+}
+
